@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Volume
 {
-    public class Elipsoid
+    public class Elipsoid : VolumeClass
     {
         int a;
 
@@ -14,7 +14,7 @@ namespace Volume
 
         int c;
 
-        public Elipsoid()
+        public Elipsoid ()
         {
             a = 1;
             b = 1;
@@ -28,12 +28,12 @@ namespace Volume
             this.c = c;
         }
 
-        public double V()
+        public override double  V()
         {
             return (4d/3)*Math.PI*a*b*c;
         }
 
-        public double Area()
+        public override double Area()
         {
             return a * b * c;
         }

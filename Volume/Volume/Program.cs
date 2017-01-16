@@ -10,17 +10,17 @@ namespace Volume
     {
         static void Main(string[] args)
         {
-            Parallelepiped zug = new Parallelepiped(2, 4, 3);
+            Parallelepiped Para = new Parallelepiped(2, 4, 3);
 
-            Console.WriteLine("Zug Volume = " + zug.V());
+            Console.WriteLine("Parallelepiped Volume = " + Para.V());
 
-            Console.WriteLine("Zug Area = " + zug.Area());
+            Console.WriteLine("Parallelepiped Area = " + Para.Area());
 
             Elipsoid elips = new Elipsoid(2, 3, 4);
 
-            Console.WriteLine("Elips Volume = " + elips.V());
+            Console.WriteLine("Elipsoid Volume = " + elips.V());
 
-            Console.WriteLine("Elips Area = " + elips.Area());
+            Console.WriteLine("Elipsoid Area = " + elips.Area());
         }
     }
 }

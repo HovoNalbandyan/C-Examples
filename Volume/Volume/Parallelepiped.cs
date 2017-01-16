@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Volume
 {
-    public class Parallelepiped
+    public class Parallelepiped : VolumeClass
     {
         int a;
-
         int b;
-
         int c;
 
         public Parallelepiped()
@@ -28,12 +26,12 @@ namespace Volume
             this.c = c;
         }
 
-        public double V()
+        public override double V()
         {
             return a * b * c;
         }
 
-        public double Area()
+        public override double Area()
         {
             return 2 * a * b + 2 * b * c + 2 * a * c;
         }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Volume
 {
-    abstract class VolumeClass
+   public abstract class VolumeClass
     {
         abstract public double V();
 
-        abstract public float Area();
+        abstract public double Area();
     }
 
 }
