@@ -57,12 +57,52 @@ namespace Translate
             string newstr = "";
             for(int i = 0; i < a.Length; i++)
             {
+                if (a[i] == 's' && a[i + 1] == 'h'&& i!=a.Length-1)
+                {
+
+                    newstr = newstr + lettercollection["sh"];
+                    i++;
+                }
+                
+              else   if (a[i] == 'g' && a[i + 1] == 'h' && i != a.Length - 1)
+                {
+
+                    newstr = newstr + lettercollection["gh"];
+                    i++;
+                }
+                else if (a[i] == 'j' && a[i + 1] == 'h' && i != a.Length - 1)
+                {
+
+                    newstr = newstr + lettercollection["jh"];
+                    i++;
+                }
+                else if (a[i] == 'e' && a[i + 1] == 'v' && i != a.Length - 1)
+                {
+
+                    newstr = newstr + lettercollection["ev"];
+                    i++;
+                }
+                else if (a[i] == 'd' && a[i + 1] == 'z' && i != a.Length - 1)
+                {
+
+                    newstr = newstr + lettercollection["dz"];
+                    i++;
+                }
+                else if (a[i] == 'c' && a[i + 1] == 'h' && i != a.Length - 1)
+                {
+
+                    newstr = newstr + lettercollection["ch"];
+                    i++;
+                }
+                else
                 newstr = newstr + lettercollection[a[i].ToString()];
             }
             Console.WriteLine(newstr);
             Console.ReadKey();
 
+          //  KeyValuePair<string, string> aa = new KeyValuePair<string, string>();
 
+           
         }
     }
 }
