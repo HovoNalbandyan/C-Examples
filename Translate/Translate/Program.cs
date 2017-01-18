@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Translate
 {
@@ -10,9 +11,13 @@ namespace Translate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Մուտքագրել Լատինատառ Բառ");
+            string text = System.IO.File.ReadAllText(@"‪C:\Users\Hovhannes\Desktop\input.txt");
+            
+
+
+           /* Console.WriteLine("Մուտքագրել Լատինատառ Բառ");
             Console.WriteLine(  );
-            Console.Write("Լատինատառ" + "  ");
+            Console.Write("Լատինատառ" + "  ");*/
 
             string str = "աբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցուփքևօֆ";
 
@@ -86,10 +91,18 @@ namespace Translate
             {
                 a = a.Replace(item.Key, item.Value);
             }
-            Console.Write("Հայատառ"+"  ");
-            Console.WriteLine(a);
-            Console.WriteLine(newstr);
-            Console.ReadKey();
+
+            System.IO.File.WriteAllText(@"‪C:\Users\Hovhannes\Desktop\output.txt", a);
+
+            /*   Console.Write("Հայատառ"+"  ");
+               Console.WriteLine(a);
+               Console.WriteLine(newstr);
+               Console.ReadKey();
+
+            */
+
+
+
         }
     }
 }
