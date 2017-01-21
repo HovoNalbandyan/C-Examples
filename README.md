@@ -1,4 +1,4 @@
-## Here will be presented the programs I've done during BetConstruct internship.
+## Here will be presented the programs I've done during BetConstruct internship.<br>
 
-* [Transliteration to Armenian translator] (https://github.com/HovoNalbandyan/Homework/tree/master/Translate/Translate)
-* [Example of inheritance on 3D Shapes] (https://github.com/HovoNalbandyan/Homework/tree/master/Volume/Volume)
+Program Translator was teanslate your inputed text English letter to Armenian letters
+Program Volume was calculated inputed values for 3D shapes
