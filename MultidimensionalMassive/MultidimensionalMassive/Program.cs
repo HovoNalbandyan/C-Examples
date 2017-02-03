@@ -9,41 +9,24 @@ namespace MultidimensionalMassive
     {
         public static void Main(string[] args)
         {
-            int[,] a;
-            a = new int[4, 3];
-            char[,] c = new char[3, 6];
-            Random rd = new Random();
-
+            Console.Write("Weight=");
+            int w = int.Parse(Console.ReadLine());
+            Console.Write("Height=");
+            int h = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.WriteLine();
+            int[,] a;                     //Create massive
+            a = new int[h, w];            
+            Random rd = new Random();     //Random Numbers Generate
             for (int i = 0; i < a.GetLength(0); i++)
             {
                 for (int k = 0; k < a.GetLength(1); k++)
                 {
                     a[i, k] = rd.Next(-100, 100);
+                    Console.Write(a[i, k] + "\t");  //Write member of massive and write Space
                 }
-
-            }
-
-            for (int i = 0; i < a.GetLength(0); i++)
-            {
-                for (int k = 0; k < a.GetLength(1); k++)
-                {
-                    Console.Write(a[i, k] + "\t");
-                }
-                Console.WriteLine();
-            }
-
-
-            for (int i = 0; i < c.GetLength(0); i++)
-            {
-                for (int k = 0; k < c.GetLength(0); k++)
-                {
-                    a[i, k] = (char)rd.Next((int)'A', (int)'Z' );
-                    Console.Write(c[i, k] + "\t");
-                }
-       
-                Console.ReadLine();
-
-            }
+                Console.WriteLine();       //Write New Line
+            }        
         }
     }
 }
