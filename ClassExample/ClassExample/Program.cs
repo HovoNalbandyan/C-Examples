@@ -10,15 +10,19 @@ namespace ClassExample
     {
         static void Main(string[] args)
         {
-            int a;
-            int b;
-            int c;
+            double a = 9;
+            double b = 9;
+            double c = 4;
+            double P = 7;
+            Triangle hashv1 = new Triangle();
+            Console.WriteLine(hashv1.Area(a, b, c, P));
+            Console.WriteLine(hashv1.Paragic());
 
 
 
 
 
         }
+
     }
 }
-
