@@ -10,9 +10,10 @@ namespace ClassExample
     {
        
 
-        public double Area(int a,int b,int b)
+        public double Area(double a,double b, double c, double P)
         {
-           return  double P=
+            double S = 1;
+            S = P * (P - a)(P - c)(P - b);
 
 
         }
