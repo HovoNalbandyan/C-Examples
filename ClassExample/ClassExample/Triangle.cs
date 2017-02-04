@@ -6,33 +6,27 @@ using System.Threading.Tasks;
 
 namespace ClassExample
 {
-   public  class Triangle
-    {
-
-
-        public void Area(double a, double b, double c, double p)
-        {
-
-
-            double S = 1;
-            S =(p - c);
-            
-        }
+    public class Triangle
+    {        
         public Triangle()
         {
-            Area(7, 8, 9, 10);
+            
             Paragic(5, 6, 7);
         }
 
-        public  void Paragic( double a, double b, double c)
+        public  double Paragic(double a, double b, double c)
         {
             double P;
-            P= a + b + c;
-         
+            P = a + b + c;
+            return P;
         }
 
-    
 
 
-    }
+        public double Area(double a, double b, double c, double p)
+        {
+            double S = 1;
+            S = p*(p - c)(p-b);
+            return S;
+        }
 }

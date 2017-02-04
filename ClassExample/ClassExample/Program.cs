@@ -15,8 +15,9 @@ namespace ClassExample
             double c = 4;
             double P = 7;
             Triangle hashv1 = new Triangle();
-            Console.WriteLine(hashv1.Area(a, b, c, P));
-            Console.WriteLine(hashv1.Paragic());
+            double d = hashv1.Paragic(a,b,c,ref P);
+            Console.WriteLine(d);
+
 
 
 
