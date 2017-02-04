@@ -26,7 +26,8 @@ namespace MultidimensionalMassive
                     Console.Write(a[i, k] + "\t");  //Write member of massive and write Space
                 }
                 Console.WriteLine();       //Write New Line
-            }        
+            }
+            Console.ReadKey();    
         }
     }
 }
