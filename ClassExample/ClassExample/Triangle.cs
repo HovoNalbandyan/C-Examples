@@ -7,26 +7,24 @@ using System.Threading.Tasks;
 namespace ClassExample
 {
     public class Triangle
-    {        
+    {
+        double a=8;
+        double b;
+        double c;
+        //Ctor      
         public Triangle()
-        {
-            
-            Paragic(5, 6, 7);
-        }
-
-        public  double Paragic(double a, double b, double c)
-        {
-            double P;
+        {      }
+        public double Paragic(double a, double b, double c,double P=0)
+        {        
             P = a + b + c;
             return P;
         }
-
-
-
-        public double Area(double a, double b, double c, double p)
+        
+        public double Area(double a, double b, double c)
         {
-            double S = 1;
-            S = p*(p - c)(p-b);
+            double P =Paragic(7,8,9);          
+            double S = Paragic.invoke;
             return S;
         }
+    }
 }

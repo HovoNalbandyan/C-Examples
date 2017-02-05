@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace ClassExample
 {
-    class Program
+   public  class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            double a = 9;
-            double b = 9;
-            double c = 4;
-            double P = 7;
+            
+            //double P = 7;
             Triangle hashv1 = new Triangle();
-            double d = hashv1.Paragic(a,b,c,ref P);
-            Console.WriteLine(d);
+            //double d = hashv1.Paragic(5,8,7);
+            //Console.WriteLine(d);
+            double d1 = hashv1.Area(5, 8, 7);
+            Console.WriteLine(d1);
 
 
 
