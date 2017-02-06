@@ -17,11 +17,6 @@ namespace ClassExample
             double b = double.Parse(Console.ReadLine());
             Console.Write("C= ");
             double c = double.Parse(Console.ReadLine());
-
-
-
-
-
             Triangle hashv1 = new Triangle(a,b,c);
             double d = hashv1.Paragic();
             Console.WriteLine("Paragic="+d); 

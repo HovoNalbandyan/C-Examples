@@ -32,8 +32,7 @@ namespace ClassExample
             this.b = b;
             this.c = c;
 
-        }
-       
+        }     
 
 
         public double Paragic()
@@ -44,6 +43,7 @@ namespace ClassExample
         
         public double Area()
         {
+            Paragic();
             double S = 1;                        
             return S=(P-a)*(P-b)*(P-c)*P;
         }
