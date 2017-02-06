@@ -10,13 +10,24 @@ namespace ClassExample
     {
         public static void Main(string[] args)
         {
-            int j = 9;
-            Triangle hashv1 = new Triangle();
-            double d = hashv1.Paragic(5, 8, j);
-            Console.WriteLine(d);
-            double d1 = hashv1.Area(5, j, 7);
-            Console.WriteLine(d1);
-            
+
+            Console.Write("A= ");
+            double a = double.Parse(Console.ReadLine());
+            Console.Write("B= ");
+            double b = double.Parse(Console.ReadLine());
+            Console.Write("C= ");
+            double c = double.Parse(Console.ReadLine());
+
+
+
+
+
+            Triangle hashv1 = new Triangle(a,b,c);
+            double d = hashv1.Paragic();
+            Console.WriteLine("Paragic="+d); 
+            double d1 = hashv1.Area();
+            Console.WriteLine("Area="+d1);
+            Console.ReadLine();
         }
 
     }
