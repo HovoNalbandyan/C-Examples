@@ -8,9 +8,7 @@ namespace ClassExample
 {
     public class Triangle
     {
-        double a=8;
-        double b;
-        double c;
+        
         //Ctor      
         public Triangle()
         {      }
@@ -22,9 +20,10 @@ namespace ClassExample
         
         public double Area(double a, double b, double c)
         {
-            double P =Paragic(7,8,9);          
-            double S = Paragic.invoke;
-            return S;
+            double S = 1;
+            double P =Paragic(7,8,9);     
+            
+            return S=(P-a)*(P-b)*(P-c)*P;
         }
     }
 }
