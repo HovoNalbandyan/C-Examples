@@ -10,8 +10,8 @@ namespace InheritanceExample
     {
         public bool hybrid;
         public bool electromobile;
-        public JuniorClass(bool hybrid,bool electromobile):
-            base(string  carname, int petrol, string country, int volumeEngine)
+        public JuniorClass( int petro,bool hybrid,bool electromobile, string carnamel, string country, int volumeEngine):base(carname,petrol,country,volumeEngine)
+            //base(string  carname, int petrol, string country, int volumeEngine)
         {
             Console.WriteLine("b");
             this.hybrid = hybrid;
