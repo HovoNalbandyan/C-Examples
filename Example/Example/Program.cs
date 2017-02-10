@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace Example
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.Write("A=");
             int a = int.Parse(Console.ReadLine());
-
             Print obj1 = new Print();
+            obj1.name = asdaasd;
 
 
-            for(int i=0;i<a;i++)
-            {
-                obj1.x = Console.ReadLine(obj1.name)/*+obj1.surname+obj1.age);*/;
-            }
+          
 
 
 

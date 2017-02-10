@@ -6,22 +6,30 @@ using System.Threading.Tasks;
 
 namespace Example
 {
-    class Print
+    public class Print
     {
-         public string name;
-         public string surname;
-         public  string  age;
-         public string[] x = new string[4];
+        public string name;
+        public string surname;
+        public string age;
         public Print()
         {
 
         }
+        public Print(string name, string surname, string age)
+        {
+            this.age = age;
+            this.surname = surname;
+            this.name = name;
+
+        }
+
+        public void Print1(string name,string surname,string age)
+        {
+         Console.WriteLine(name);
+            Console.WriteLine(surname);
+            Console.WriteLine(age);
+        }
 
     }
-   //public void printing()
-   // {
-
-   //     return 8;
-
-   // }
+    
 }
