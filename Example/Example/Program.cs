@@ -8,21 +8,18 @@ namespace Example
 {
     public class Program
     {
+      
         static void Main(string[] args)
         {
             Console.Write("A=");
             int a = int.Parse(Console.ReadLine());
             Print obj1 = new Print();
-            obj1.name = asdaasd;
 
 
+
+            int? x = null;
+            
           
-
-
-
-
-
-
         }
     }
 }
