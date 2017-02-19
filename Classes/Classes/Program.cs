@@ -16,14 +16,14 @@ namespace Classes
             Laser obj2 = new Laser();
             Lusatitik obj3 = new Lusatitik();
             Sun obj4 = new Sun();
-
             obj1.LightFunc();
             obj2.LaserFunc();
             obj3.Fly();
             obj4.SunFunc();
-           
-        
-
+            obj1.GiveLight();
+            obj2.GiveLight();
+            Sun sun = new Sun();
+            sun.ptt();    
         }
     }
     

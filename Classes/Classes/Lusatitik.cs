@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Lusatitik
+    class Lusatitik:ILight
     {
+        //Method 
         public void Fly()
         {
-
              Console.WriteLine("i Can Fly");
+        }
+
+        public void GiveLight()
+        {
+            Console.WriteLine("i am  Lusatitik");
         }
     }
 }

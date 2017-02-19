@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILight.cs" />
     <Compile Include="Laser.cs" />
     <Compile Include="Light.cs" />
+    <Compile Include="Lune.cs" />
     <Compile Include="Lusatitik.cs" />
+    <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sun.cs" />

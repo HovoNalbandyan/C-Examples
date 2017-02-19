@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Laser:ILight
+    class Lune :Planet,ILight
     {
         public void GiveLight()
         {
-            Console.WriteLine("i am Laser");
+            Console.WriteLine("i am Lusin");
         }
 
-        public void LaserFunc()
+        public override void turn()
         {
-            Console.WriteLine("i can laserit");
+            Console.WriteLine("i Can Fly abstact");
         }
+        public 
     }
 }
