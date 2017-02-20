@@ -8,14 +8,28 @@ namespace BMW
 {
    public abstract class Motor
     {
-        double Liter;
-        double HorsePow;
+        //public double liter;
+        //double horsePow;
+
+        //public double HorsePow
+        //{
+        //    get
+        //    {
+        //        return horsePow;
+        //    }
+
+        //    set
+        //    {
+        //        horsePow = value;
+        //    }
+        //}
+       
         public abstract void MotorValue();
+
         public virtual void CrashCar()
         {
-            Console.WriteLine("Virtual Metod PTT");
-        }
-        
+            Console.WriteLine("Virtual method Car in Motor");
+        }        
     }
    
 }

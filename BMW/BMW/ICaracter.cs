@@ -12,8 +12,7 @@ namespace BMW
         void Speed();
         void Mass();
         void Price();
-        void Date();
-       
+        void Date();      
 
     }
     

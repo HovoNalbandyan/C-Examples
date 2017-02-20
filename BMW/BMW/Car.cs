@@ -32,21 +32,29 @@ namespace BMW
             Console.WriteLine("Car 370 KM/H");
         }
         public void Start()
-        {
+        {                      
             Name();
             Date();
             Mass();
             Price();
             Speed();
+            CrashCar();
+            MotorValue();
         }
+        
         public override void MotorValue()
         {
-            Console.WriteLine("Override Abs Method ");
-
+            Console.WriteLine("In car abstract Class");
         }
         public override void CrashCar()
         {
-            Console.WriteLine("CarCrash oVerride Virtual Method");
+            Console.WriteLine("In car Override Crash virtual method");
         }
+
+        //public Car(double liter)
+        //{
+        //    this.liter = 8;
+            
+        //}
     }
 }
