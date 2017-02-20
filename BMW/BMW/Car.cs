@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BMW
 {
-    class Car : ICaracter
+    class Car : Motor,ICaracter
     {
         public void Name()
         {
@@ -38,6 +38,15 @@ namespace BMW
             Mass();
             Price();
             Speed();
+        }
+        public override void MotorValue()
+        {
+            Console.WriteLine("Override Abs Method ");
+
+        }
+        public override void CrashCar()
+        {
+            Console.WriteLine("CarCrash oVerride Virtual Method");
         }
     }
 }

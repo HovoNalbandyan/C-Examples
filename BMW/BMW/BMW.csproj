@@ -46,6 +46,7 @@
     <Compile Include="Bicycle.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="ICaracter.cs" />
+    <Compile Include="Motor.cs" />
     <Compile Include="Motorcycle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
