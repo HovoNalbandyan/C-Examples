@@ -29,8 +29,8 @@ namespace BMW
         static void Main(string[] args)
         {
             Car car = new Car();
-            Bicycle bicycle = new Bicycle();
-            Motorcycle motorcycle = new Motorcycle();
+            //Bicycle bicycle = new Bicycle();
+            //Motorcycle motorcycle = new Motorcycle();
             car.Start();
             //bicycle.Start();
             //motorcycle.Start();

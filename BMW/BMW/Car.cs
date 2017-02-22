@@ -31,6 +31,11 @@ namespace BMW
         {
             Console.WriteLine("Car 370 KM/H");
         }
+        public static int krr(int a)
+        {
+            return a * a;
+
+        }
         public void Start()
         {                      
             Name();
@@ -51,10 +56,10 @@ namespace BMW
             Console.WriteLine("In car Override Crash virtual method");
         }
 
-        //public Car(double liter)
-        //{
-        //    this.liter = 8;
-            
-        //}
+        public Car()
+        {
+            Console.WriteLine("adasd");
+        }
+        
     }
 }
